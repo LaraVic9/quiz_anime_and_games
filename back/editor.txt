@@ -1,0 +1,143 @@
+import json
+from abc import ABC, abstractmethod
+import random
+from flask import Flask 
+from flask import render_template
+
+app = Flask(__name__)
+
+def difficulty_para_palavra(difficulty):
+    if difficulty == 1:
+        return "Fácil"
+    elif difficulty == 2:
+        return "Moderado"
+    elif difficulty == 3:
+        return "Difícil"
+    else:
+        return "Desconhecido"
+
+class Question:
+    def __init__(self, id, question, response, difficulty, dica):
+        self.id = id
+        self.question = question
+        self.response = response
+        self.difficulty = difficulty
+        self.dica = dica
+
+    def display(self):
+        print(f"question (Nível: {difficulty_para_palavra(self.difficulty)}):")
+        print(self.question)
+        for i, resposta in enumerate(self.response, start=1):
+            print(f"{i}. {resposta['alt']}")
+
+    def check_resposta(self, user_resposta):
+        try:
+            user_resposta = int(user_resposta)
+            if 1 <= user_resposta <= len(self.response):
+                resposta_selecionada = self.response[user_resposta - 1]
+                if resposta_selecionada["correct"]:
+                    points_manager.add_points(10)  # Adicione pontos quando a resposta estiver correta
+                    return True
+        except (ValueError, IndexError):
+            pass
+
+        return False
+ 
+class PointsSingleton:
+    _instance = None
+
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super(PointsSingleton, cls).__new__(cls)
+            cls._instance.total_points = 0
+        return cls._instance
+
+    def add_points(self, points):
+        self.total_points += points
+
+    def get_total_points(self):
+        return self.total_points  
+    
+points_manager = PointsSingleton()     
+
+class ShuffleStrategy(ABC):
+    @abstractmethod
+    def shuffle(self, questions):
+        pass
+
+class RandomShuffleStrategy(ShuffleStrategy):
+    def shuffle(self, questions):
+        return random.sample(questions, len(questions))
+
+class DifficultyShuffleStrategy(ShuffleStrategy):
+    def shuffle(self, questions):
+        questions.sort(key=lambda q: q.difficulty)
+
+def load_questions_from_json(quiz, quantity):
+    with open('quiz.json', 'r') as quiz:
+        data = json.load(quiz)
+
+    questions_data = data["questions"][:quantity]
+    questions = []
+
+    for question_data in questions_data:
+        id = question_data["id"]
+        question = question_data["question"]
+        response = question_data["response"]
+        difficulty = question_data["difficulty"]
+        dica = question_data["dica"]
+        questions.append(Question(id, question, response, difficulty, dica))
+
+    return questions
+
+
+def shuffle_questions(questions, shuffle_strategy):
+    return shuffle_strategy.shuffle(questions)
+
+
+user_quantity = int(input("Digite o número de perguntas que você deseja responder:"))
+
+
+questions = load_questions_from_json('quiz.json', user_quantity)
+
+shuffle_strategy = RandomShuffleStrategy()
+shuffled_questions = shuffle_strategy.shuffle(questions)
+
+
+
+for index, question in enumerate(shuffled_questions, start=1):
+    print(f"question {index}:")
+    question.display()
+    
+    dica_solicitada = False
+
+    while True:
+        user_resposta = int(input("Digite o número da resposta correta: "))
+
+        if question.check_resposta(user_resposta):
+            total_points = points_manager.get_total_points()
+            print("Resposta correta!\n")
+            break  # Sai do loop quando a resposta estiver correta
+        else:
+            print("Resposta incorreta.""\n")
+           
+            if not dica_solicitada:  # Verifique se o usuário já solicitou uma dica
+                user_dica = int(input("Deseja uma dica e tentar novamente? \n Sim = 1 \n Nao = 0 \n"))
+                if user_dica == 1:
+                    print("Dica: " + question.dica + "\n")
+                    dica_solicitada = True  # Atualize a variável para indicar que o usuário solicitou uma dica
+                else:
+                    break
+
+            else:
+                break
+print("Total de pontos:", total_points)
+
+
+@app.route("/")
+def hello_world():
+    return render_template('index.html')
+
+
+if __name__ == "__main__":
+    app.run(debug=True, port=8000)

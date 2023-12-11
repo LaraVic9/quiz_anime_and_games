@@ -1,0 +1,256 @@
+{
+    "questions":
+   [
+
+    {
+        "id": "1",
+        "question": "Qual é o nome do jogo em que você controla um grupo de sobreviventes durante um apocalipse zumbi, tomando decisões difíceis para garantir a sobrevivência?",
+        "response": 
+            [
+                {"alt": "State of Decay", "correct" : true},
+                {"alt":"Left 4 Dead", "correct": false},
+                {"alt":"Dead Rising", "correct": false},
+                {"alt":"The Last of Us", "correct": false}
+        ]
+        ,
+        "difficulty": 1,
+        "dica": "Este jogo foca nas decisões morais e na gestão de recursos para manter seu grupo seguro em um mundo infestado de zumbis."
+        
+    },
+    {
+        "id": "2",
+        "question": "Em qual jogo de plataforma o personagem principal é um mascote laranja com uma calça jeans?",    
+        "response": [
+            {"alt":"Crash Bandicoot", "correct": true},
+            {"alt":"Super Mario", "correct": false},
+            {"alt":"Sonic the Hedgehog", "correct": false},
+            {"alt":"Spyro the Dragon", "correct": false}
+        ],
+            "difficulty": 1,
+            "dica": "Este personagem é conhecido por suas aventuras frenéticas em um mundo colorido e cheio de desafios."
+    },
+    {
+        "id": "3", 
+       "question": "Qual é o jogo que apresenta um mundo de blocos e permite que os jogadores construam suas próprias criações?",
+       "response": [
+            {"alt":"Terraria", "correct": false},
+            {"alt":"No Man's Sky", "correct": false},
+            {"alt":"Starbound", "correct": false},
+            {"alt":"Minecraft", "correct": true}
+        ],
+        "difficulty": 1,
+        "dica": "Neste jogo, a criatividade dos jogadores é ilimitada, pois podem construir quase tudo o que imaginarem usando blocos."
+    },
+    {
+        "id": "4",
+        "question":"Em qual jogo de tiro em primeira pessoa você assume o papel de um membro da força-tarefa Rainbow Six, que combate o terrorismo em várias missões táticas?",
+        "response": [
+            {"alt":"Call of Duty: Modern Warfare", "correct": false},
+            {"alt":"Battlefield V", "correct": false},
+            {"alt":"Counter-Strike: Global Offensive", "correct": false},
+            {"alt":"Tom Clancy's Rainbow Six Siege", "correct": true}
+        ],
+        "difficulty": 1,
+        "dica": "Este jogo enfatiza estratégia e cooperação em equipes enquanto enfrenta situações táticas complexas."
+    },
+    {
+        "id": "5",
+        "question": "Qual jogo popular de battle royale foi desenvolvido pela Epic Games?",
+        "response":[
+            {"alt":"Apex Legends", "correct": false},
+            {"alt":"PlayerUnknown's Battlegrounds (PUBG)", "correct": false},
+            {"alt":"Call of Duty: Warzone", "correct": false},
+            {"alt":"Fortnite", "correct": true}
+        ],
+            "difficulty": 1,
+            "dica": "Este jogo ganhou enorme popularidade por suas mecânicas de construção e o estilo de batalha royale."
+        },
+        {
+            "id": "6",
+            "question":"Qual é o jogo de simulação de vida em que os jogadores podem criar personagens, construir casas e explorar uma cidade virtual?",
+            "response":[
+               {"alt": "Animal Crossing: New Horizons", "correct": false},
+               { "alt":"Stardew Valley", "correct": false},
+                {"alt":"The Sims 4", "correct": true},
+                {"alt":"Harvest Moon", "correct": false}
+            ],
+            "difficulty": 2,
+            "dica": "Neste jogo, os jogadores podem realizar diversas atividades em um ambiente virtual, desde construir casas até socializar com os habitantes."
+        },
+        {
+            "id": "7",
+            "question": "Qual é o jogo de RPG da CD Projekt Red que se baseia em uma série de livros polonesa e se passa em um mundo de fantasia medieval?",
+            "response":[
+                {"alt":"The Witcher 3: Wild Hunt", "correct": true},
+                {"alt":"Dragon Age: Inquisition", "correct": false},
+               { "alt":"Dark Souls III", "correct": false},
+                {"alt":"Diablo III", "correct": false}
+            ],
+            "difficulty": 2,
+            "dica": "Este jogo é famoso por suas histórias envolventes e seu protagonista, Geralt de Rivia."
+        },
+        {
+            "id": "8",
+            "question":"Em qual jogo de aventura apresenta um encanador italiano chamado Mario que viaja pelo Reino dos Cogumelos para resgatar a Princesa Peach?",
+            "response":[
+                {"alt":"Super Mario Odyssey", "correct": true},
+                {"alt":"Donkey Kong Country", "correct": false},
+                {"alt":"Luigi's Mansion", "correct": false},
+                {"alt":"New Super Mario Bros.", "correct": false}
+            ],
+            "difficulty": 2,
+            "dica": "Este personagem icônico é conhecido por suas aventuras em um mundo repleto de inimigos e desafios."
+        },
+        {
+            "id": "9",
+            "question":"Qual jogo de ação em primeira pessoa se passa em uma cidade fictícia chamada City 17, ocupada por uma raça alienígena?",
+            "response":[
+                {"alt":"BioShock", "correct": false},
+                {"alt":"Half-Life 2", "correct": true},
+                {"alt":"Doom", "correct": false},
+                {"alt":"Far Cry 3", "correct": false}
+            ],
+            "difficulty": 3,
+            "dica": "Este jogo revolucionou o gênero de tiro em primeira pessoa com sua narrativa envolvente e jogabilidade imersiva."
+        },
+        {
+            "id": "10",
+            "question": "Qual é o jogo de RPG de mundo aberto que se passa em um cenário pós-apocalíptico?",
+            "response":[
+                {"alt":"Fallout 4", "correct": true},
+                {"alt":"The Elder Scrolls V: Skyrim", "correct": false},
+                {"alt":"Borderlands 2", "correct": false},
+                {"alt":"Wasteland 2", "correct": false}
+            ],
+            "difficulty": 3,
+        "dica": "Neste jogo, você explora um mundo devastado e toma decisões que afetam o destino da terra desolada."
+
+        },
+
+        { 
+            "id": "11",
+            "question":"Qual anime apresenta um jovem mago chamado Natsu Dragneel e seu companheiro felino Happy, enquanto fazem parte da guilda Fairy Tail?",
+            "response": [ 
+                {"alt":"Fairy Tail", "correct": true},
+                {"alt":"Naruto", "correct": false},
+                {"alt":"One Piece", "correct": false},
+                
+                {"alt":"Dragon Ball", "correct": false}
+            ],
+            "difficulty": 1,
+            "dica": "Este anime se concentra em guildas de magos e é conhecido por suas aventuras emocionantes e personagens cativantes."
+            
+        },
+        { 
+            "id": "12",
+            "question":" Em Death Note, qual é o objeto usado para matar as pessoas?",
+            "response": [ 
+                {"alt":"Livro", "correct": true},
+                {"alt":"Espada", "correct": false},
+               
+                {"alt":"Anel", "correct": false},
+                {"alt":"Arma", "correct": false}
+            ],
+            "difficulty": 1,
+            "dica": "O protagonista usa um objeto incomum para realizar assassinatos, e esse objeto é fundamental para a trama."
+            
+        },
+        {
+            "id":"13",
+            "question": "Qual é o nome da protagonista feminina em 'Attack on Titan' que é conhecida por sua habilidade de lutar contra os Titãs?",
+            "response": [
+                {"alt":"Mikasa Ackerman", "correct": true},
+                {"alt":"Sakura Haruno", "correct": false},
+                {"alt":"Rukia Kuchiki", "correct": false},
+                {"alt":"Anne Leonhart", "correct": false}
+            ],
+            "difficulty": 2,
+            "dica": "Esta personagem é uma das mais habilidosas em combate na série, protegendo o protagonista com grande dedicação."
+        },
+        {
+            "id":"14",
+            "question": "Qual é o título do anime em que os personagens estão presos em um mundo de realidade virtual, forçados a lutar pela sobrevivência?",
+            "response": [
+                {"alt":"Sword Art Online", "correct": true},
+                {"alt":"My Hero Academia", "correct": false},
+                {"alt":"Black Clover", "correct": false},
+                {"alt":"Boku no Pico", "correct": false}
+            ],
+            "difficulty": 2,
+            "dica": "O nome do anime descreve a principal mecânica do enredo, onde os personagens estão ligados a um mundo de jogos virtuais."
+        },
+        {
+            "id":"15",
+            "question": "Em 'Cowboy Bebop', qual é a profissão do protagonista Spike Spiegel?",
+            "response": [
+                {"alt":"Caçador de Recompensas", "correct": true},
+                {"alt":"Detetive", "correct": false},
+                {"alt":"Mercenário", "correct": false},
+                {"alt":"Pirata", "correct": false}
+            ],
+            "difficulty": "2",
+            "dica": "A atividade de Spike envolve encontrar indivíduos específicos."
+        },
+        {
+            "id":"16",
+            "question": "Qual é o nome do estúdio de animação japonês famoso por produzir filmes de Hayao Miyazaki, como 'A Viagem de Chihiro'?",
+            "response": [
+                {"alt":"Studio Ghibli", "correct": true},
+                {"alt":"Kyoto Animation", "correct": false},
+                {"alt":"Toei Animation", "correct": false},
+                {"alt":"Studio CoMix", "correct": false}
+            ],
+            "difficulty": "2",
+            "dica": "Este estúdio é conhecido por suas animações excepcionais e histórias mágicas."
+        },
+        {
+            "id":"17",
+            "question": "Em 'Fullmetal Alchemist: Brotherhood', qual é o nome do alquimista federal conhecido como o 'Alquimista de Aço'?",
+            "response": [
+                {"alt":"Roy Mustang", "correct": false},
+                {"alt":"Edward Elric", "correct": true},
+                {"alt":"Alphonse Elric", "correct": false},
+                {"alt":"King Bradley", "correct": false}
+            ],
+            "difficulty": 3,
+            "dica": "Este personagem compartilha seu sobrenome com o título do anime e é conhecido por suas habilidades únicas na alquimia."
+        },
+        {
+            "id":"18",
+            "question": "Qual é o nome do anime cyberpunk de 1998, baseado no mangá de Masamune Shirow, que explora temas filosóficos e tecnológicos?",
+            "response": [
+                {"alt":"Psycho-Pass", "correct": false},
+                {"alt":"Ghost in the Shell", "correct": true},
+                {"alt":"Serial Experiments Lain", "correct": false},
+                {"alt":"Ergo Procy", "correct": false}
+            ],
+            "difficulty": 3,
+            "dica": "O título faz referência à natureza da existência humana em um mundo altamente tecnológico."
+        },
+        {
+            "id":"19",
+            "question": "Em 'Neon Genesis Evangelion', qual é o nome da organização para a qual os personagens principais lutam contra os seres chamados Anjos?",
+            "response": [
+                {"alt":"NERV", "correct": true},
+                {"alt":"GEHIRN", "correct": false},
+                {"alt":"SEELE", "correct": false},
+                {"alt":"GAINAX", "correct": false}
+            ],
+            "difficulty": 3,
+            "dica": "A organização é uma sigla que denota a importância da defesa contra os Anjos."
+        },
+        {
+            "id":"20",
+            "question": "Qual é o nome do anime que segue a história de um grupo de terroristas espaciais que lutam contra a opressão do governo da Terra em uma colônia em Marte?",
+            "response": [
+                {"alt":"Mobile Suit Gundam Wing", "correct": true},
+                {"alt":"Code Geass", "correct": false},
+                {"alt":"Outlaw Star", "correct": false},
+                {"alt":"Space Battleship Yamato", "correct": false}
+            ],
+            "difficulty": 3,
+            "dica": "O título do anime inclui a referência a um tipo de veículo usado no espaço e a uma parte do nome da série."
+        }
+
+]
+}

@@ -1,0 +1,172 @@
+"Nível": "Fácil:"
+
+    
+    "Qual é o nome do jogo em que você controla um grupo de sobreviventes durante um apocalipse zumbi, tomando decisões difíceis para garantir a sobrevivência?"
+"State of Decay",@
+"Left 4 Dead",
+"Dead Rising",
+"The Last of Us"
+Dica: Este jogo foca nas decisões morais e na gestão de recursos para manter seu grupo seguro em um mundo infestado de zumbis.
+,
+
+"Em qual jogo de plataforma o personagem principal é um mascote laranja com uma calça jeans?"
+"Crash Bandicoot",@
+"Super Mario",
+"Sonic the Hedgehog",
+"Spyro the Dragon"
+,Dica: Este personagem é conhecido por suas aventuras frenéticas em um mundo colorido e cheio de desafios.0
+
+"Qual é o jogo que apresenta um mundo de blocos e permite que os jogadores construam suas próprias criações?"
+"Terraria",
+"No Man's Sky",
+"Starbound",
+"Minecraft"@
+Dica: Neste jogo, a criatividade dos jogadores é ilimitada, pois podem construir quase tudo o que imaginarem usando blocos.
+,
+
+"Em qual jogo de tiro em primeira pessoa você assume o papel de um membro da força-tarefa Rainbow Six, que combate o terrorismo em várias missões táticas?"
+"Call of Duty: Modern Warfare",
+"Battlefield V",
+"Counter-Strike: Global Offensive",
+"Tom Clancy's Rainbow Six Siege"@
+Dica: Este jogo enfatiza estratégia e cooperação em equipes enquanto enfrenta situações táticas complexas.
+,
+"Qual jogo popular de battle royale foi desenvolvido pela Epic Games?"
+"Apex Legends",
+"PlayerUnknown's Battlegrounds (PUBG)",
+"Call of Duty: Warzone",
+"Fortnite"@
+Dica: Este jogo ganhou enorme popularidade por suas mecânicas de construção e o estilo de batalha royale.
+
+,
+
+"Nível": "Moderado:"
+
+"Qual é o jogo de simulação de vida em que os jogadores podem criar personagens, construir casas e explorar uma cidade virtual?"
+"Animal Crossing: New Horizons",
+"Stardew Valley",
+"The Sims 4",@
+"Harvest Moon".
+Dica: Neste jogo, os jogadores podem realizar diversas atividades em um ambiente virtual, desde construir casas até socializar com os habitantes.
+
+"Qual é o jogo de RPG da CD Projekt Red que se baseia em uma série de livros polonesa e se passa em um mundo de fantasia medieval?"
+"The Witcher 3: Wild Hunt",@
+"Dragon Age: Inquisition",
+"Dark Souls III",
+"Diablo III"
+Dica: Este jogo é famoso por suas histórias envolventes e seu protagonista, Geralt de Rivia.
+,
+"Em qual jogo de aventura apresenta um encanador italiano chamado Mario que viaja pelo Reino dos Cogumelos para resgatar a Princesa Peach?"
+"Super Mario Odyssey",@
+"Donkey Kong Country",
+"Luigi's Mansion",
+"New Super Mario Bros."
+Dica: Este personagem icônico é conhecido por suas aventuras em um mundo repleto de inimigos e desafios.
+,
+"Nível": "Difícil:"
+
+"Qual jogo de ação em primeira pessoa se passa em uma cidade fictícia chamada City 17, ocupada por uma raça alienígena?"
+"BioShock",
+"Half-Life 2",@
+"Doom",
+"Far Cry 3"
+Dica: Este jogo revolucionou o gênero de tiro em primeira pessoa com sua narrativa envolvente e jogabilidade imersiva.
+,
+"Qual é o jogo de RPG de mundo aberto que se passa em um cenário pós-apocalíptico?"
+"Fallout 4",@
+"The Elder Scrolls V: Skyrim",
+"Borderlands 2",
+"Wasteland 2"
+Dica: Neste jogo, você explora um mundo devastado e toma decisões que afetam o destino da terra desolada.
+
+
+
+
+///// ANIMES
+
+Nível Fácil:
+
+Pergunta 1 (Fácil): 
+"Qual anime apresenta um jovem mago chamado Natsu Dragneel e seu companheiro felino Happy, enquanto fazem parte da guilda Fairy Tail?"
+a) "Naruto"
+b) "One Piece"
+c) "Fairy Tail"
+Resposta Certa: c) "Fairy Tail"
+Dica: Este anime se concentra em guildas de magos e é conhecido por suas aventuras emocionantes e personagens cativantes.
+
+
+Pergunta 2 (Fácil): Em "Death Note", qual é o objeto usado para matar as pessoas?
+a) Espada
+b) Livro
+c) Anel
+Resposta Certa: b) Livro
+Resposta Errada: a) Espada / c) Anel
+Dica: O protagonista usa um objeto incomum para realizar assassinatos, e esse objeto é fundamental para a trama.
+
+Nível Médio:
+
+Pergunta 3 (Médio): Qual é o nome da protagonista feminina em "Attack on Titan" que é conhecida por sua habilidade de lutar contra os Titãs?
+a) Mikasa Ackerman
+b) Sakura Haruno
+c) Rukia Kuchiki
+Resposta Certa: a) Mikasa Ackerman
+Resposta Errada: b) Sakura Haruno / c) Rukia Kuchiki
+Dica: Esta personagem é uma das mais habilidosas em combate na série, protegendo o protagonista com grande dedicação.
+
+Pergunta 4 (Médio): Qual é o título do anime em que os personagens estão presos em um mundo de realidade virtual, forçados a lutar pela sobrevivência?
+a) Sword Art Online
+b) My Hero Academia
+c) Black Clover
+Resposta Certa: a) Sword Art Online
+Resposta Errada: b) My Hero Academia / c) Black Clover
+Dica: O nome do anime descreve a principal mecânica do enredo, onde os personagens estão ligados a um mundo de jogos virtuais.
+
+Nível Moderado:
+
+Pergunta 5 (Moderado): Em 'Cowboy Bebop', qual é a profissão do protagonista Spike Spiegel?
+a) Caçador de Recompensas
+b) Detetive
+c) Mercenário
+Resposta Certa: a) Caçador de Recompensas
+Resposta Errada: b) Detetive / c) Mercenário
+Dica: A atividade de Spike envolve encontrar indivíduos específicos.
+
+Pergunta 6 (Moderado): Qual é o nome do estúdio de animação japonês famoso por produzir filmes de Hayao Miyazaki, como "A Viagem de Chihiro"?
+a) Studio Ghibli
+b) Kyoto Animation
+c) Toei Animation
+Resposta Certa: a) Studio Ghibli
+Resposta Errada: b) Kyoto Animation / c) Toei Animation
+Dica: Este estúdio é conhecido por suas animações excepcionais e histórias mágicas.
+
+Pergunta 7 (Difícil): Em "Fullmetal Alchemist: Brotherhood", qual é o nome do alquimista federal conhecido como o "Alquimista de Aço"?
+a) Roy Mustang
+b) Edward Elric
+c) Alphonse Elric
+Resposta Certa: b) Edward Elric
+Resposta Errada: a) Roy Mustang / c) Alphonse Elric
+Dica: Este personagem compartilha seu sobrenome com o título do anime e é conhecido por suas habilidades únicas na alquimia.
+
+Pergunta 8 (Difícil): Qual é o nome do anime cyberpunk de 1998, baseado no mangá de Masamune Shirow, que explora temas filosóficos e tecnológicos?
+a) Psycho-Pass
+b) Ghost in the Shell
+c) Serial Experiments Lain
+Resposta Certa: b) Ghost in the Shell
+Resposta Errada: a) Psycho-Pass / c) Serial Experiments Lain
+Dica: O título faz referência à natureza da existência humana em um mundo altamente tecnológico.
+
+Pergunta 9 (Difícil): Em 'Neon Genesis Evangelion', qual é o nome da organização para a qual os personagens principais lutam contra os seres chamados Anjos?
+a) NERV
+b) GEHIRN
+c) SEELE
+Resposta Certa: a) NERV
+Resposta Errada: b) GEHIRN / c) SEELE
+Dica: A organização é uma sigla que denota a importância da defesa contra os Anjos.
+
+Pergunta 10 (Difícil): Qual é o nome do anime que segue a história de um grupo de terroristas espaciais que lutam contra a opressão do governo da Terra em uma colônia em Marte?
+a) Mobile Suit Gundam Wing
+b) Code Geass
+c) Outlaw Star
+Resposta Certa: a) Mobile Suit Gundam Wing
+Resposta Errada: b) Code Geass / c) Outlaw Star
+Dica: O título do anime inclui a referência a um tipo de veículo usado no espaço e a uma parte do nome da série.
