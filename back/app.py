@@ -18,6 +18,7 @@ def difficulty_para_palavra(difficulty):
     else:
         return "Desconhecido"
 
+#Factory: instancia de pergunta. classe "Question" 
 class Question:
     def __init__(self, id, question, response, difficulty, dica):
         self.id = id
@@ -40,7 +41,7 @@ class Question:
                 resposta_selecionada = self.response[user_resposta - 1]
                 if resposta_selecionada["correct"]:
                     points_manager.add_points(10)  
-                    self.attempts = 0  # Resetar contagem de tentativas após resposta correta
+                    self.attempts = 0  # Resetar contagem de tentativas depois da resposta certa
                     return True
         except (ValueError, IndexError):
             pass
@@ -49,12 +50,13 @@ class Question:
         return False
     
     def __str__(self):
-        result = f"question (Nível: {difficulty_para_palavra(self.difficulty)}):\n"
+        
         result += f"{self.question}\n"
         for i, resposta in enumerate(self.response, start=1):
             result += f"{i}. {resposta['alt']}\n"
         return result
  
+#Singleton: contagem de pontos 
 class PointsSingleton:
     _instance = None
 
@@ -72,6 +74,7 @@ class PointsSingleton:
     
 points_manager = PointsSingleton()     
 
+#Strategy: embaralhar perguntas 
 class ShuffleStrategy(ABC):
     @abstractmethod
     def shuffle(self, questions):

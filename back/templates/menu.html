@@ -1058,7 +1058,7 @@
            
                         <form method="post" action="{{ url_for('menu') }}">
                             <label for="quantity" class="score-text-2">Número de Perguntas:</label>
-                        <select name="quantity" class="quantity" id="quantity" required>
+                        <select name="user_quantity" value="{{user_quantity}}" class="quantity" id="quantity" required>
                            
                             <option value="1" {% if user_quantity == 1 %}selected{% endif %}>1</option>
                             <option value="3" {% if user_quantity == 3 %}selected{% endif %}>3</option>
@@ -1068,17 +1068,22 @@
                         </select>
                             <br>
                             <label for="difficulty" class="score-text-2">Nível de Dificuldade:</label>
-                            <select name="difficulty" class="difficulty" required>
+                            <select name="user_difficulty" value={{user_difficulty}} class="difficulty" required>
                                 <option value="1" {% if user_difficulty == 1 %}selected{% endif %}>Fácil</option>
                                 <option value="2" {% if user_difficulty == 2 %}selected{% endif %}>Moderado</option>
                                 <option value="3" {% if user_difficulty == 3 %}selected{% endif %}>Difícil</option>
                             </select>
                             <br>
+                            <br>
+                            <label for="tema">Escolha o tema:</label>
+                            <select name="user_tema" id="tema" value={{user_tema}}>
+                                <option value="1">Jogos</option>
+                                <option value="2">Anime</option>
+                            </select>
+                            <br>
                            
-                            <button type="submit">
-                                <a href="/quiz" class=" button-text">
-                                    Iniciar Quiz
-                                   </a>
+                            <button type="submit" class=" button-text" >
+                               Iniciar quiz
                             </button>
                         </form>
                      </div>

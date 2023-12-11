@@ -667,7 +667,7 @@
                 margin-left: 5px;
                 margin-top: 5px;
             }
-            .difficulty {
+            .dify {
                 border-radius: 30px;
                 padding: 3px;
                 font-size: 16px;
@@ -678,9 +678,7 @@
                 border: 1px;
                 text-align: center;
                 appearance: none;
-                /* safari */
-                -webkit-appearance: none;
-                /* other styles for aesthetics */
+                
                 
                 font-size: 1.15rem;
                 height: 30px;
@@ -1068,7 +1066,25 @@
                         
                     </div>
                     <div class="gamer-container">
-                       
+                        <label for="quantity" class="score-text-2">Número de Perguntas:</label>
+                        <select name="quantity" value="{{quantity}}" class="quantity" id="quantity" required>
+                           
+                            <option value="1" {% if user_quantity == 1 %}selected{% endif %}>1</option>
+                            <option value="3" {% if user_quantity == 3 %}selected{% endif %}>3</option>
+                            <option value="5" {% if user_quantity == 5 %}selected{% endif %}>5</option>
+                           
+                           
+                        </select>
+                            <br>
+                            <label for="difficulty" class="score-text-2">Nível de Dificuldade:</label>
+                            <select name="difficulty" value={{difficulty}} class="dify" required>
+                                <option value="1" {% if user_difficulty == 1 %}selected{% endif %}>Fácil</option>
+                                <option value="2" {% if user_difficulty == 2 %}selected{% endif %}>Moderado</option>
+                                <option value="3" {% if user_difficulty == 3 %}selected{% endif %}>Difícil</option>
+                            </select>
+                            <br>
+                            <br>
+                           
                        
                             
                     </div>

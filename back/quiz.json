@@ -14,11 +14,12 @@
         ]
         ,
         "difficulty": 1,
+        "tema": 1,
         "dica": "Este jogo foca nas decisões morais e na gestão de recursos para manter seu grupo seguro em um mundo infestado de zumbis."
         
     },
     {
-        "id": "2",
+        "id": 2,
         "question": "Em qual jogo de plataforma o personagem principal é um mascote laranja com uma calça jeans?",    
         "response": [
             {"alt":"Crash Bandicoot", "correct": true},
@@ -27,6 +28,7 @@
             {"alt":"Spyro the Dragon", "correct": false}
         ],
             "difficulty": 1,
+            "tema": 1,
             "dica": "Este personagem é conhecido por suas aventuras frenéticas em um mundo colorido e cheio de desafios."
     },
     {
@@ -39,6 +41,7 @@
             {"alt":"Minecraft", "correct": true}
         ],
         "difficulty": 1,
+        "tema": 1,
         "dica": "Neste jogo, a criatividade dos jogadores é ilimitada, pois podem construir quase tudo o que imaginarem usando blocos."
     },
     {
@@ -51,6 +54,7 @@
             {"alt":"Tom Clancy's Rainbow Six Siege", "correct": true}
         ],
         "difficulty": 1,
+        "tema": 1,
         "dica": "Este jogo enfatiza estratégia e cooperação em equipes enquanto enfrenta situações táticas complexas."
     },
     {
@@ -63,6 +67,7 @@
             {"alt":"Fortnite", "correct": true}
         ],
             "difficulty": 1,
+            "tema": 1,
             "dica": "Este jogo ganhou enorme popularidade por suas mecânicas de construção e o estilo de batalha royale."
         },
         {
@@ -75,6 +80,7 @@
                 {"alt":"Harvest Moon", "correct": false}
             ],
             "difficulty": 2,
+            "tema": 1,
             "dica": "Neste jogo, os jogadores podem realizar diversas atividades em um ambiente virtual, desde construir casas até socializar com os habitantes."
         },
         {
@@ -87,6 +93,7 @@
                 {"alt":"Diablo III", "correct": false}
             ],
             "difficulty": 2,
+            "tema": 1,
             "dica": "Este jogo é famoso por suas histórias envolventes e seu protagonista, Geralt de Rivia."
         },
         {
@@ -99,6 +106,7 @@
                 {"alt":"New Super Mario Bros.", "correct": false}
             ],
             "difficulty": 2,
+            "tema": 1,
             "dica": "Este personagem icônico é conhecido por suas aventuras em um mundo repleto de inimigos e desafios."
         },
         {
@@ -111,6 +119,7 @@
                 {"alt":"Far Cry 3", "correct": false}
             ],
             "difficulty": 3,
+            "tema": 1,
             "dica": "Este jogo revolucionou o gênero de tiro em primeira pessoa com sua narrativa envolvente e jogabilidade imersiva."
         },
         {
@@ -123,6 +132,7 @@
                 {"alt":"Wasteland 2", "correct": false}
             ],
             "difficulty": 3,
+            "tema": 1,
         "dica": "Neste jogo, você explora um mundo devastado e toma decisões que afetam o destino da terra desolada."
 
         },
@@ -138,6 +148,7 @@
                 {"alt":"Dragon Ball", "correct": false}
             ],
             "difficulty": 1,
+            "tema": 2,
             "dica": "Este anime se concentra em guildas de magos e é conhecido por suas aventuras emocionantes e personagens cativantes."
             
         },
@@ -152,6 +163,7 @@
                 {"alt":"Arma", "correct": false}
             ],
             "difficulty": 1,
+            "tema": 2,
             "dica": "O protagonista usa um objeto incomum para realizar assassinatos, e esse objeto é fundamental para a trama."
             
         },
@@ -165,6 +177,7 @@
                 {"alt":"Anne Leonhart", "correct": false}
             ],
             "difficulty": 2,
+            "tema": 2,
             "dica": "Esta personagem é uma das mais habilidosas em combate na série, protegendo o protagonista com grande dedicação."
         },
         {
@@ -177,6 +190,7 @@
                 {"alt":"Boku no Pico", "correct": false}
             ],
             "difficulty": 2,
+            "tema": 2,
             "dica": "O nome do anime descreve a principal mecânica do enredo, onde os personagens estão ligados a um mundo de jogos virtuais."
         },
         {
@@ -188,7 +202,8 @@
                 {"alt":"Mercenário", "correct": false},
                 {"alt":"Pirata", "correct": false}
             ],
-            "difficulty": "2",
+            "difficulty": 2,
+            "tema": 2,
             "dica": "A atividade de Spike envolve encontrar indivíduos específicos."
         },
         {
@@ -200,7 +215,8 @@
                 {"alt":"Toei Animation", "correct": false},
                 {"alt":"Studio CoMix", "correct": false}
             ],
-            "difficulty": "2",
+            "difficulty": 2,
+            "tema": 2,
             "dica": "Este estúdio é conhecido por suas animações excepcionais e histórias mágicas."
         },
         {
@@ -213,6 +229,7 @@
                 {"alt":"King Bradley", "correct": false}
             ],
             "difficulty": 3,
+            "tema": 2,
             "dica": "Este personagem compartilha seu sobrenome com o título do anime e é conhecido por suas habilidades únicas na alquimia."
         },
         {
@@ -225,6 +242,7 @@
                 {"alt":"Ergo Procy", "correct": false}
             ],
             "difficulty": 3,
+            "tema": 2,
             "dica": "O título faz referência à natureza da existência humana em um mundo altamente tecnológico."
         },
         {
@@ -237,6 +255,7 @@
                 {"alt":"GAINAX", "correct": false}
             ],
             "difficulty": 3,
+            "tema": 2,
             "dica": "A organização é uma sigla que denota a importância da defesa contra os Anjos."
         },
         {
@@ -249,6 +268,7 @@
                 {"alt":"Space Battleship Yamato", "correct": false}
             ],
             "difficulty": 3,
+            "tema": 2,
             "dica": "O título do anime inclui a referência a um tipo de veículo usado no espaço e a uma parte do nome da série."
         }
 
